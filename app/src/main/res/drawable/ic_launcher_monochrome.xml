@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ring as an outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.4"
+        android:pathData="M54,54m-28,0a28,28 0 1,0 56,0a28,28 0 1,0 -56,0" />
+
+    <!-- Disc with the lock punched out (shackle, body) and the keyhole filled back in -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M54,54m-20.5,0a20.5,20.5 0 1,0 41,0a20.5,20.5 0 1,0 -41,0
+                          M48,53.5V48.5A6,6 0 0 1 60,48.5V53.5H57V48.5A3,3 0 0 0 51,48.5V53.5Z
+                          M48,53.5H60A2.5,2.5 0 0 1 62.5,56V63A2.5,2.5 0 0 1 60,65.5H48A2.5,2.5 0 0 1 45.5,63V56A2.5,2.5 0 0 1 48,53.5Z
+                          M54,58.3m-1.9,0a1.9,1.9 0 1,0 3.8,0a1.9,1.9 0 1,0 -3.8,0
+                          M53.1,60H54.9L55.6,63.2H52.4Z" />
+
+    <!-- LED -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M73.1,34.9m-3.4,0a3.4,3.4 0 1,0 6.8,0a3.4,3.4 0 1,0 -6.8,0" />
+</vector>

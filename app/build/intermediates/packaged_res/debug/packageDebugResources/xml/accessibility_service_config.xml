@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Minimal config: no event types are requested and window content is not
+    retrievable, so the service cannot read anything on screen. It exists only
+    to call performGlobalAction(GLOBAL_ACTION_LOCK_SCREEN) and to host the
+    floating-button overlay window.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100" />

@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+string accessibility_service_description
+string accessibility_service_label
+string app_name
+string bubble_content_description
+style Theme.FloatingLock
+xml accessibility_service_config

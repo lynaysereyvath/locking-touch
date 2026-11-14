@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Shows a floating button and presses the system Lock screen or Take screenshot action when you choose one. It does not read, record or send anything on your screen.</string>
+    <string name="accessibility_service_label">Floating Lock</string>
+    <string name="app_name">Floating Lock</string>
+    <string name="bubble_content_description">Floating lock button</string>
+    <style name="Theme.FloatingLock" parent="android:Theme.Material.NoActionBar"/>
+</resources>
